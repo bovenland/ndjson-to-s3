@@ -10,7 +10,7 @@ Usage:
 cat file.ndjson
   | jq -c '{ \
     Bucket: "files.boven.land", \
-		Key: ("data/" + .osmId + ".json"), \
-		Body: . \
-	}' \
-	| ./index.js
+    Key: ("data/" + .osmId + ".json"), \
+    Body: . \
+  }' \
+  | ./index.js
