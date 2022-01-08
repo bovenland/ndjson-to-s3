@@ -1,4 +1,4 @@
-# ndjson-to-s3
+# @bovenland/ndjson-to-s3
 
 Creates S3 objects from lines in [newline delimited JSON](http://ndjson.org/) files.
 
